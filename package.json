@@ -1,0 +1,32 @@
+{
+    "name": "curso_webpack",
+    "version": "1.0.0",
+    "description": "Creación de proyecto con webpack",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/riagma5/Curso_Webpack.git"
+    },
+    "keywords": [
+        "webpack",
+        "javascript"
+    ],
+    "author": "Ricardo Aguilera",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/riagma5/Curso_Webpack/issues"
+    },
+    "homepage": "https://github.com/riagma5/Curso_Webpack#readme",
+    "devDependencies": {
+        "@babel/core": "^7.18.2",
+        "@babel/plugin-transform-runtime": "^7.18.2",
+        "@babel/preset-env": "^7.18.2",
+        "babel-loader": "^8.2.5",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2"
+    }
+}
